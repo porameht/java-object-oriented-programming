@@ -5,6 +5,25 @@ class Employee {
     private String name;
     private Double salary;
 
+    // static attribute
+    static int minSalary = 12000;
+
+
+    // default constructor
+    public Employee()
+    {
+        System.out.println("I'm Employee");
+    } 
+    
+    public Employee(String name, Double salary)
+    {
+        
+        this.name = name;
+        this.salary = salary;
+        displayEmployee();
+    }
+    
+    
     // method setter
     public void setID(String id)
     {
@@ -22,7 +41,7 @@ class Employee {
     // method getter
     public void displayEmployee()
     {
-        System.out.println("ID = "+ this.id);
+        // System.out.println("ID = "+ this.id);
         System.out.println("Name = "+ this.name);
         System.out.println("Salary = "+ this.salary);
     }
