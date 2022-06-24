@@ -1,5 +1,5 @@
 public class Company {
-    static String name ="l2c. Development";
+    static final String name ="l2c. Development";
     static String create_at ="2019";
 
     static void service()

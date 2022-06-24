@@ -8,5 +8,11 @@ public class Accounting extends Employee
         System.out.println("I'm accounting");
     }
 
+    // override
+    public void bonus()
+    {
+        
+    }
+
     
 }

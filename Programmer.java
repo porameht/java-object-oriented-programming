@@ -1,11 +1,24 @@
 public class Programmer extends Employee
 {
-    public String skill="Java C#";
-
-    public Programmer(String name, Double salary)
+    //  overloading method
+    public void skill()
     {
-        super(name, salary);
-        System.out.println("I'm Programmer");
+        System.out.println("No Skill");
+    }
+
+    public void skill(String...language)
+    {
+        for (int i=0;i<language.length;i++)
+        {
+            System.out.println("Skill : "+language[i]);
+        }
+    }
+
+    // override
+    public void bonus()
+    {
         
     }
 }
+
+

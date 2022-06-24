@@ -1,4 +1,4 @@
-class Employee {
+abstract class Employee {
 
     // attribute
     private String id;
@@ -54,4 +54,8 @@ class Employee {
     {
         return this.salary;
     }
+    public abstract void bonus();
+    
+
+    
 }
