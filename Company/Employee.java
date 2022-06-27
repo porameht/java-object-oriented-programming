@@ -1,3 +1,5 @@
+package Company;
+
 abstract class Employee {
 
     // attribute

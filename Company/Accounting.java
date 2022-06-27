@@ -1,3 +1,5 @@
+package Company;
+
 public class Accounting extends Employee
 {
     public String skill="manage money";

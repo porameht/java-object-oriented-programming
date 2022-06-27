@@ -1,10 +1,7 @@
-public class Main {
-    public static void main(String [] args){
-
-        // overloading method
-        Programmer e1 = new Programmer();
-        e1.bonus();
-
+public class Main { 
+    public static void main(String [] args)
+    {
+        Person p1 = new Person();
+        p1.register();
     }
-
 }

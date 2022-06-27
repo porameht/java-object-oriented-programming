@@ -1,3 +1,5 @@
+package Company;
+
 public class Programmer extends Employee
 {
     //  overloading method
