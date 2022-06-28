@@ -1,15 +1,16 @@
+package Abstract;
 
 public class Person extends Student {
 
-    public void Register(){
+    public void register(){
         System.out.println("Register Already");
 
     };
-    public void PreTest(){
+    public void preTest(){
         
 
     };
-    public void PostTest(){
+    public void postTest(){
 
     };
 
